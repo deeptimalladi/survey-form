@@ -1,0 +1,68 @@
+<DOCTYPE html>
+ <html>
+  <head>
+    <header>
+      <title>Survey Form</title>
+    </header>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div id="main">
+    <div id="title">
+      <h1>Employee Survey Form</h1>
+    </div>
+       <div id="description">
+         <p>We need your valuable time for our betterment</p>
+       </div>
+        <form id="form">
+         <div id="form-control">
+           <label>Name</label>
+           <br/>
+           <input type ="text" placeholder="Enter your name" id="name">
+         </div>
+          <div id="form-control">
+           <label>Email</label>
+           <br/>
+            <input type ="email" placeholder="Enter your E mail " id="email">
+          </div>
+          <div id="form-control">
+           <label>Age</label>
+           <br/>
+            <input type ="number" placeholder="Enter your Age " id="age" min="0" max="99">
+          </div>
+          <div id="form-control">
+           <select id="select">
+              <option>Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+           </select>
+          </div>
+          <div id="form-control">
+            <label>Employee type</label>
+            <br/>
+            <input type="radio" id="permanant" name="permanent">
+             <label for="permanent">permanent</label>
+            <input type="radio" id="temporary" name="temporary">
+             <label for="temporary">temporary</label>
+          </div>
+          <div id="form-control">
+            <label>Employee rating</label>
+            <br/>
+            <label>Exec</label>
+            <input type="checkbox" value="exec"/>
+            <label>Good</label>
+            <input type="checkbox" value="good"/>
+            <label>Avg</label>
+            <input type="checkbox" value="avg"/>
+          </div>
+          <div id="form-control">
+            <label>About yourself</label>
+            <br/>
+            <textarea id="textarea" type="textarea" placeholder="About yourself"></textarea>
+            <br></br>
+          </div>
+          <button type="submit" id="submit-btn">Submit</button>
+          </form>
+          </div>
+         </body>
+ </html>
